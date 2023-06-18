@@ -3,13 +3,17 @@
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
+
 }
 body {
     background-color:black;
     color: rgb(172, 171, 171);
+    
 }
 
+
 .navbar {
+    
     margin: 0;
     background-color: #2d3838;
 
@@ -25,8 +29,6 @@ body {
 }
 
 .navbar-expand-lg {
-    transform: none;
-    transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1) 0ms ;
     position: fixed;
     top: 0;
     right: 0;
@@ -35,15 +37,10 @@ body {
     box-shadow: 1px 2px 7px black;
 }
 
-.navbar-expand-lg::after{
-    transform: translateY(-80px);
-    visibility: hidden;
-}
-
 .navbar-brand h4{
     display: flex;
     align-items: center;
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
 }
 
 div a h4{
@@ -127,6 +124,7 @@ main {
 @media(min-width:1200px){
     .about_body_body{
         font-size: 1.25rem;
+        width: 100%;
     }
 }
 
@@ -438,7 +436,12 @@ ol, ul{
 }
 
 .skill_card {
-    display: flex;
+    /* display: flex; */
+}
+@media(min-width:1200px){
+    .skill_card{
+        display: flex;
+    }
 }
 
 .skill_card li {
@@ -449,7 +452,6 @@ ol, ul{
     color: white;
     margin: 0px 1rem;
     margin-bottom: 0.4rem;
-
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -458,11 +460,20 @@ ol, ul{
     transition-duration: 0.3s;
     -webkit-transition-property: box-shadow;
     transition-property: box-shadow;
-    width: 32vw;
+    width:70vw;
+    margin-bottom: 1rem;
 }
 .skill_card li:hover{
     box-shadow: -0.4rem 0.4rem yellow;
+    color: yellow;
 }
+
+@media(min-width:1200px){
+    .skill_card li{
+        width:25%;
+    }
+}
+
 
 .skill_head {
     text-decoration: underline;
@@ -470,7 +481,7 @@ ol, ul{
 }
 
 .skill_body {
-    margin: 4px;
+    margin: 0.25rem;
     font-size: (1.275rem + .3vw);
 
 }
@@ -485,7 +496,7 @@ ol, ul{
     border: solid 1px yellow;
     border-radius: 10px;
     background-color: yellow;
-    width: 40px;
+    width: 2.5rem;
 }
 /* Contact */
 .Contact {
@@ -558,7 +569,7 @@ footer {
     justify-content: center;
     line-height: 1;
     margin-right: 6px;
-    width: 42px;
+    width: 2.7rem;
 }
 
 .social-icon a:hover{

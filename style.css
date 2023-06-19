@@ -2,12 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 body {
     background-color:black;
     color: rgb(172, 171, 171);
-    position: sticky;
 }
 .navbar {
     margin: 0;
@@ -29,7 +28,7 @@ body {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 10;
+    z-index: 1;
     box-shadow: 1px 2px 7px black;
 }
 
@@ -382,8 +381,14 @@ ol, ul{
     background-color:#141a1a;
     border-radius: 20px;
     color: white;
+    /* width: 40%; */
     /* margin-left: 10px; */
 }
+/* @media(min-width:1200px){
+    .edu_list ul div{
+        width:50%;
+    }
+} */
 
 .edu_animation {
     display: flex;
@@ -409,6 +414,7 @@ ol, ul{
 .school_head {
     text-decoration: underline;
 }
+
 
 /* 4.SKILLS */
 .Skill{

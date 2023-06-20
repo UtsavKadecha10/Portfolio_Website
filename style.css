@@ -443,6 +443,7 @@ ol, ul{
 }
 
 .univ_head {
+    font-weight: bold;
     margin-bottom: 1rem;    
     /* color: rgb(172, 171, 171); */
 }
@@ -451,6 +452,7 @@ ol, ul{
 }
 
 .school_head {
+    font-weight: bold;
     /* color: rgb(172, 171, 171); */
     margin-bottom: 1rem;
 }

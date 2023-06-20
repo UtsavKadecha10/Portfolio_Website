@@ -590,18 +590,16 @@ ol, ul{
 /* 6.FOOTER */
 footer {
     box-sizing: border-box;
-
     background-color: black;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
     justify-content: center;
     text-align: center;
     background-color:#141a1a;
 }
 
-.nameGradient {
-    color: white;
+.nameGradient div {
+    color: rgb(172, 171, 171);
 }
 
 .social-icon a {

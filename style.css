@@ -400,7 +400,7 @@ ol, ul{
     margin-right: 3rem;
     background-color:#141a1a;
     border-radius: 1rem;
-    color: white;
+    color: rgb(172, 171, 171);
     width: 80%;
     margin-bottom: 1.2rem;
     vertical-align: middle;
@@ -416,6 +416,7 @@ ol, ul{
 }
 .edu_list ul li:hover{
     box-shadow: -0.4rem 0.4rem yellow;
+    color: yellow
 }
 @media(min-width:1200px){
     .edu_list ul li{
@@ -442,11 +443,19 @@ ol, ul{
 }
 
 .univ_head {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;    
+    /* color: rgb(172, 171, 171); */
+}
+.univ_body{
+    color: rgb(172, 171, 171);
 }
 
 .school_head {
+    /* color: rgb(172, 171, 171); */
     margin-bottom: 1rem;
+}
+.school_body{
+    color: rgb(172, 171, 171);
 }
 
 
@@ -485,7 +494,7 @@ ol, ul{
     border: solid 4px #141a1a;
     border-radius: 10px;
     background-color: #141a1a;
-    color: white;
+    color: rgb(172, 171, 171);
     margin: 0px 1rem;
     margin-bottom: 0.4rem;
     vertical-align: middle;
@@ -512,14 +521,15 @@ ol, ul{
 
 
 .skill_head {
-    text-decoration: underline;
-    font-size: large;
+    /* text-decoration: underline; */
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .skill_body {
     margin: 0.25rem;
-    font-size: (1.275rem + .3vw);
-
+    font-size: 1.1rem;
+    color: rgb(172, 171, 171);
 }
 
 .skill_icon {

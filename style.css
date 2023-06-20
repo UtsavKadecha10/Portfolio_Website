@@ -9,9 +9,9 @@ body {
     color: rgb(172, 171, 171);
 }
 .navbar {
+    width:100vw;
     margin: 0;
     background-color: #2d3838;
-
 }
 .navbar-toggler{
     border: 1px #262e2e solid;

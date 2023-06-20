@@ -9,7 +9,7 @@ body {
     color: rgb(172, 171, 171);
 }
 .navbar {
-    width:100vw;
+    width: 100vw;
     margin: 0;
     background-color: #2d3838;
 }
@@ -275,7 +275,7 @@ ol, ul{
 
 @media(min-width:1200px){
     .work_card ul li{
-        margin-bottom: 1px;
+        margin-bottom: 0.1rem;
     }
 }
 
@@ -286,18 +286,26 @@ ol, ul{
 .jarvis_card {
     border: #141a1a solid 0.3rem;
     border-radius: 1.875rem;
-    width: 21.875rem;
+    width: 90%;
     background-color: #141a1a;
     color: white;
+}
+@media(min-width:1200px){  /*for normal screen(laptop) */
+    .jarvis_card{
+        width:21.875rem;
+    }  
 }
 
 .jarvis_card_images a img {
     border-radius: 1.875rem;
-    width: 21.375rem;
+    width: 100%;
     box-shadow: 0px 7px 9px black;
 }
-
-
+@media(min-width:1200px){   
+    .jarvis_card_images a img{
+        width:21.375rem;
+    }  
+}
 .jarvis_card_content {
     margin: 0.4rem;
     margin-top: 0.6rem;
@@ -305,7 +313,7 @@ ol, ul{
 
 .jarvis_card_content_head {
     font-weight: bold;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: calc(1.3rem + .3vw);
 }
 @media(min-width:1200px){
@@ -327,16 +335,25 @@ ol, ul{
 .spotify_card {
     border: #141a1a solid 4px;
     border-radius: 30px;
-    width: 21.875rem;
-    height: 24.863rem;
+    width: 90%;
     background-color: #141a1a;
     color: white;
 }
-
+@media(min-width:1200px){   
+    .spotify_card{
+        width:21.875rem;
+        height: 24.863rem;
+    }  
+}
 .spotify_card_images a img {
     border-radius: 30px;
-    width: 21.375rem;
+    width: 100%;
     box-shadow: 0px 7px 9px black;
+}
+@media(min-width:1200px){   
+    .spotify_card_images a img{
+        width:21.375rem;
+    }  
 }
 
 .spotify_card_content {
@@ -347,7 +364,7 @@ ol, ul{
 
 .spotify_card_content_head {
     font-weight: bold;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: calc(1.3rem + .3vw);
 }
 @media(min-width:1200px){
@@ -370,9 +387,12 @@ ol, ul{
     margin:0.6rem;
 }
 .edu_list ul {
-    display: flex;
     list-style: none;
-    
+}
+@media(min-width:1200px){
+    .edu_list ul{
+        display: flex;
+    }
 }
 
 .edu_list ul div {
@@ -387,6 +407,7 @@ ol, ul{
 /* @media(min-width:1200px){
     .edu_list ul div{
         width:50%;
+        
     }
 } */
 
@@ -513,16 +534,20 @@ ol, ul{
 }
 
 .contact_animation{
-    height: 60vh;
+    height: 100vh;
 }
 .contact_animation img {
-    width: 65%;
+    width: 60%;
 }
 
 .cont_para {
     margin-top: 0.4rem;
-    font-size: x-large;
-    
+    font-size: calc(2rem+.3vw);
+}
+@media(min-width:1200px){
+    .cont_para{
+        font-size: 2rem ;
+    }
 }
 
 .cont_button a button {
@@ -532,7 +557,7 @@ ol, ul{
     height: 50px;
     width: 140px;
     font-size: large;
-    color:black;
+    color: rgb(172, 171, 171);
     font-weight: bold;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -543,6 +568,10 @@ ol, ul{
     -webkit-transition-property: box-shadow;
     transition-property: box-shadow;
     /* margin-bottom: px; */
+}
+.cont_button a button:hover{
+    box-shadow: -0.4rem 0.4rem yellow;
+    color: yellow;
 }
 
 /* 6.FOOTER */
@@ -574,9 +603,6 @@ footer {
     width: 2.7rem;
 }
 
-.social-icon a:hover{
-    background-color: yellow;
-}
 body{
     font-size: (1.275rem + .3vw);
 }

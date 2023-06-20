@@ -614,9 +614,9 @@ footer {
     width: 2.7rem;
 }
 
-.social-icon a:hover{
+/* .social-icon a:hover{
     background-color: yellow;
-}
+} */
 body{
     font-size: (1.275rem + .3vw);
 }

@@ -395,28 +395,40 @@ ol, ul{
     }
 }
 
-.edu_list ul div {
-    padding: 4px;
-    margin-right: 40px;
+.edu_list ul li {
+    padding: 0.4rem;
+    margin-right: 3rem;
     background-color:#141a1a;
-    border-radius: 20px;
+    border-radius: 1rem;
     color: white;
-    /* width: 40%; */
+    width: 80%;
+    margin-bottom: 1.2rem;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+    margin-bottom: 2rem;
     /* margin-left: 10px; */
 }
-/* @media(min-width:1200px){
-    .edu_list ul div{
-        width:50%;
-        
+.edu_list ul li:hover{
+    box-shadow: -0.4rem 0.4rem yellow;
+}
+@media(min-width:1200px){
+    .edu_list ul li{
+        width:30%;
+        height: 10rem;
     }
-} */
+}
 
 .edu_animation {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .edu_animation{
     height: 100vh;
 }
@@ -426,14 +438,15 @@ ol, ul{
 
 .edu_head {
     font-size: large;
+    
 }
 
 .univ_head {
-    text-decoration: underline;
+    margin-bottom: 1rem;
 }
 
 .school_head {
-    text-decoration: underline;
+    margin-bottom: 1rem;
 }
 
 
@@ -603,6 +616,9 @@ footer {
     width: 2.7rem;
 }
 
+.social-icon a:hover{
+    background-color: yellow;
+}
 body{
     font-size: (1.275rem + .3vw);
 }

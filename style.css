@@ -582,7 +582,7 @@ ol, ul{
 .cont_button a button {
     border-radius: 10px;
     background-color:#141a1a;
-    
+    border-color:#141a1a;
     height: 50px;
     width: 140px;
     font-size: large;
@@ -634,8 +634,7 @@ footer {
 
 /* .social-icon a:hover{
     background-color: yellow;
-} 
-*/
+} */
 body{
     font-size: (1.275rem + .3vw);
 }

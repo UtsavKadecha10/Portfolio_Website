@@ -611,7 +611,7 @@ footer {
     flex-direction: column;   
     justify-content: center;
     text-align: center;
-    background-color:#141a1a;
+    background-color:#262e2e;
 }
 
 .nameGradient div {
@@ -620,7 +620,7 @@ footer {
 
 .social-icon a {
     align-items: center;
-    background:#141a1a;
+    background-color: #262e2e;
     border-radius: 100%;
     display: inline-flex;
     height: 42px;
@@ -628,13 +628,14 @@ footer {
     line-height: 1;
     margin-right: 6px;
     width: 2.7rem;
-    border:6px solid #1a1f1f
+    border:4px solid #262e2e
      
 }
 
-.social-icon a:hover{
+/* .social-icon a:hover{
     background-color: yellow;
-}
+} 
+*/
 body{
     font-size: (1.275rem + .3vw);
 }

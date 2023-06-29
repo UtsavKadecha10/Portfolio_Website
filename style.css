@@ -486,9 +486,9 @@ ol, ul{
     width: 84%;
 }
 
-.skill_card {
-    /* display: flex; */
-}
+/* .skill_card {
+    display: flex;
+} */
 @media(min-width:1200px){
     .skill_card{
         display: flex;

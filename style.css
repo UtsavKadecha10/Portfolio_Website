@@ -211,6 +211,9 @@ main {
     left: 0;
     right: 0;
 }
+
+
+
 /* 2. Work */
 .Work{
     margin:0.6rem
@@ -260,9 +263,9 @@ ol, ul{
 
 .work_card ul li {
     color: rgb(172, 171, 171);
-    margin-right: 1rem;
+    margin: 0 1rem;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -344,7 +347,7 @@ ol, ul{
 @media(min-width:600px){   
     .spotify_card{
         width:21.875rem;
-        height: 24.863rem;
+        height: 22rem;
     }  
 }
 .spotify_card_images a img {

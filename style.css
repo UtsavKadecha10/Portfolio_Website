@@ -44,12 +44,6 @@ body {
     margin-bottom: 0rem;
 }
 
-/* .navbar-brand img{
-    width: 5rem;
-    height: 3rem;
-    border-radius:7rem ;
-} */
-
 div a h4 {
     color: rgb(172, 171, 171);
 }
@@ -120,14 +114,25 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.about_animation {
     height: 100vh;
 }
 
 .about_animation img {
     width: 85%;
+    animation: shakeImage linear 2.5s infinite;
+}
+
+@keyframes shakeImage {
+    0%{
+        transform: translateY(-4px);
+    }
+    50%{
+        transform: translateY(4px);
+
+    }
+    100%{
+        transform: translateY(-4px);
+    }
 }
 
 .about_body_head {
@@ -263,6 +268,7 @@ main {
 
 .work_animation img {
     width: 75%;
+    animation: shakeImage linear 2s infinite;
 }
 
 .work_head h4 {
@@ -496,6 +502,7 @@ ul {
 
 .edu_animation img {
     width: 85%;
+    animation: shakeImage linear 2s infinite;
 }
 
 .edu_head {
@@ -545,6 +552,7 @@ ul {
 
 .skill_animation img {
     width: 84%;
+    animation: shakeImage linear 2s infinite;
 }
 
 /* .skill_card {
@@ -632,6 +640,7 @@ ul {
 
 .contact_animation img {
     width: 85%;
+    animation: shakeImage linear 2s infinite;
 }
 
 .cont_para {
